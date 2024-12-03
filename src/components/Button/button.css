@@ -1,0 +1,33 @@
+.storybook-button {
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  border-radius: 3em;
+  font-weight: 700;
+  line-height: 1;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-family: "Nunito Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.storybook-button--dark-solid {
+  background-color: #1f2937;
+  color: white;
+}
+
+.storybook-button--green-solid {
+  background-color: #22c55e;
+  color: white;
+}
+
+.storybook-button--dark-outlined {
+  background-color: transparent;
+  color: #1f2937;
+  border: 1px solid #1f2937;
+}
+
+.storybook-button--green-outlined {
+  background-color: transparent;
+  color: #22c55e;
+  border: 1px solid #22c55e;
+}
